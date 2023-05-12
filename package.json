@@ -1,0 +1,52 @@
+{
+  "name": "asuka-contract",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fiberblock/asuka-contract.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fiberblock/asuka-contract/issues"
+  },
+  "homepage": "https://github.com/fiberblock/asuka-contract#readme",
+  "devDependencies": {
+    "@nomiclabs/ethereumjs-vm": "4.2.2",
+    "@nomiclabs/hardhat-ethers": "^2.2.1",
+    "@nomiclabs/hardhat-etherscan": "^3.0.3",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "@openzeppelin/contracts": "^4.8.1",
+    "@openzeppelin/contracts-upgradeable": "^4.8.1",
+    "@openzeppelin/hardhat-upgrades": "^1.22.0",
+    "@typechain/ethers-v5": "^7.0.1",
+    "@typechain/hardhat": "^2.3.0",
+    "argparse": "2.0.1",
+    "chai": "^4.3.0",
+    "dotenv": "^16.0.3",
+    "ethereum-waffle": "^3.4.4",
+    "ethers": "^5.4.6",
+    "hardhat": "^2.6.1",
+    "hardhat-contract-sizer": "2.5.1",
+    "hardhat-dependency-compiler": "1.1.1",
+    "hardhat-deploy": "^0.11.22",
+    "hardhat-deploy-ethers": "^0.3.0-beta.13",
+    "hardhat-gas-reporter": "1.0.4",
+    "node-fetch": "3.2.3",
+    "ts-node": "^10.9.1",
+    "typechain": "^5.1.2"
+  },
+  "dependencies": {
+    "bn.js": "^5.2.0",
+    "csv-parse": "^4.16.3",
+    "solidity-coverage": "^0.8.2"
+  }
+}
